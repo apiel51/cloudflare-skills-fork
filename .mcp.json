@@ -4,13 +4,17 @@
       "command": "npx",
       "args": ["mcp-remote", "https://docs.mcp.cloudflare.com/mcp"]
     },
-    "cloudflare-workers-observability": {
+    "cloudflare-bindings": {
       "command": "npx",
-      "args": ["mcp-remote", "https://observability.mcp.cloudflare.com/mcp"]
+      "args": ["mcp-remote", "https://bindings.mcp.cloudflare.com/mcp"]
     },
-    "cloudflare-workers-builds": {
+    "cloudflare-builds": {
       "command": "npx",
       "args": ["mcp-remote", "https://builds.mcp.cloudflare.com/mcp"]
+    },
+    "cloudflare-observability": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://observability.mcp.cloudflare.com/mcp"]
     }
   }
 }

@@ -14,6 +14,10 @@ Install using the [plugin marketplace](https://code.claude.com/docs/en/discover-
 /plugin marketplace add cloudflare/skills
 ```
 
+### Cursor
+
+Install from the Cursor Marketplace or add manually via **Settings > Rules > Add Rule > Remote Rule (Github)** with `cloudflare/skills`.
+
 ### npx skills
 
 Install using the [`npx skills`](https://skills.sh) CLI:
@@ -29,6 +33,7 @@ Clone this repo and copy the skill folders into the appropriate directory for yo
 | Agent | Skill Directory | Docs |
 |-------|-----------------|------|
 | Claude Code | `~/.claude/skills/` | [docs](https://code.claude.com/docs/en/skills) |
+| Cursor | `~/.cursor/skills/` | [docs](https://cursor.com/docs/context/skills) |
 | OpenCode | `~/.config/opencode/skill/` | [docs](https://opencode.ai/docs/skills/) |
 | OpenAI Codex | `~/.codex/skills/` | [docs](https://developers.openai.com/codex/skills/) |
 | Pi | `~/.pi/agent/skills/` | [docs](https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent#skills) |
@@ -63,8 +68,9 @@ This plugin includes [Cloudflare's remote MCP servers](https://developers.cloudf
 | Server | Purpose |
 |--------|---------|
 | cloudflare-docs | Up-to-date Cloudflare documentation and reference |
-| cloudflare-workers-observability | Debug and analyze application logs and analytics |
-| cloudflare-workers-builds | Manage and get insights into Workers builds |
+| cloudflare-bindings | Build Workers applications with storage, AI, and compute primitives |
+| cloudflare-builds | Manage and get insights into Workers builds |
+| cloudflare-observability | Debug and analyze application logs and analytics |
 
 ## Resources
 
